@@ -7,16 +7,18 @@
 <ion-content [fullscreen]="true">
  
     
-    <ion-card>
-      <ion-card-header>
-        <ion-card-title>Inicio de Sesion</ion-card-title>
-        <ion-card-subtitle></ion-card-subtitle>
-      </ion-card-header>
-    <div class="container">  <ion-card-content>
-      <ion-input [(ngModel)]="usuario" label="Usuario: "></ion-input>
-      <ion-input [(ngModel)]="contrasena" type="password" label="contraseña: "></ion-input>
-      <ion-button (click)="onLogin()" color="tertiary"  shape="round"><ion-icon slot="start" name="skull"></ion-icon> Iniciar Sesion </ion-button>
-    </ion-card-content></div>
+    <ion-card class="login-card">
+        <ion-card-header>
+          <ion-card-title>Inicio de Sesion</ion-card-title>
+          
+        </ion-card-header>
+      <div class="container"> 
+          <ion-card-content>
+            <ion-input  label="Usuario: "></ion-input>
+            <ion-input  type="password" label="contraseña: "></ion-input>
+            <ion-button color="tertiary"  shape="round">Ingresar </ion-button>
+          </ion-card-content>
+      </div>
   
     </ion-card>
   
