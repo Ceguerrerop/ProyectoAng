@@ -30,7 +30,23 @@ const routes: Routes = [
   {
     path: 'pag3',
     loadChildren: () => import('./pages/pag3/pag3.module').then( m => m.Pag3PageModule)
+  },  {
+    path: 'resgitro',
+    loadChildren: () => import('./pages/resgitro/resgitro.module').then( m => m.ResgitroPageModule)
   },
+  {
+    path: 'recuperar',
+    loadChildren: () => import('./pages/recuperar/recuperar.module').then( m => m.RecuperarPageModule)
+  },
+  {
+    path: 'camara',
+    loadChildren: () => import('./pages/camara/camara.module').then( m => m.CamaraPageModule)
+  },
+  {
+    path: 'asistencia',
+    loadChildren: () => import('./pages/asistencia/asistencia.module').then( m => m.AsistenciaPageModule)
+  },
+
 ];
 
 @NgModule({
