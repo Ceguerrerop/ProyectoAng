@@ -1,0 +1,24 @@
+ion-content {
+    --background: #ffffff; 
+  }
+  
+  ion-list {
+    background-color: #fff; /* Color de fondo de la lista de entrada de datos */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  ion-item {
+    --highlight-color-focused: transparent; /* Elimina el resaltado en el foco del elemento */
+    margin-bottom: 16px; /* Espaciado entre elementos */
+  }
+  
+  ion-button {
+    --background: #3498db; /* Color de fondo del botón */
+    --border-radius: 10px; /* Borde redondeado */
+    --box-shadow: none; /* Elimina la sombra del botón */
+    color: #fff; /* Color del texto del botón */
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 20px; /* Espaciado superior */
+  }

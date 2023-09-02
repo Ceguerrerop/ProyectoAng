@@ -1,0 +1,32 @@
+/* menu.page.scss */
+
+ion-content {
+    --background: #f5f5f5; /* Color de fondo de la página */
+  }
+  
+  ion-header {
+    background-color: #ffffff; /* Color de fondo de la barra de título */
+    color: #fff; /* Color del texto de la barra de título */
+  }
+  
+  ion-title {
+    font-size: 35px; /* Tamaño de fuente del título */
+  }
+  
+  /* Aumentar el tamaño de los ion-list */
+  ion-item {
+    min-height: 60px; /* Altura mínima de los elementos de la lista */
+  }
+  
+  ion-avatar {
+    width: 45px; /* Tamaño del avatar */
+    height: 40px;
+    margin-right: 25px; /* Espaciado entre el avatar y el texto */
+  }
+  
+  h2 {
+    font-size: 28px; /* Tamaño de fuente del texto */
+  }
+  
+  /* Personaliza más los estilos según tus preferencias */
+  

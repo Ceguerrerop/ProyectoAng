@@ -1,12 +1,24 @@
-.login-card{
-    margin: 150px  30px ;
+.login-card {
+    margin: 150px 30px;
     border-radius: 14px;
-    background: linear-gradient(145deg, #b11ccf, #9517ae);
-    box-shadow:  9px 9px 1px #420a4d               
-}
-
-.icono-login{
+    background: linear-gradient(145deg, #747dd2, #9517ae);
+    box-shadow: 9px 9px 1px #9033ee;
+  }
+  
+  .icono-login {
     font-size: 70px;
     display: flex;
     justify-content: center;
-}
+    color: white !important;
+  }
+  
+  label {
+    color: #fff;
+  }
+  
+  ion-card-title {
+    color: white !important;
+  }
+  
+
+  

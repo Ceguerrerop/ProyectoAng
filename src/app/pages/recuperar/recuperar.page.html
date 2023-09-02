@@ -13,5 +13,29 @@
     <ion-toolbar>
       <ion-title size="large">Reesblecer contraseña</ion-title>
     </ion-toolbar>
+
+    <ion-item>
+      <ion-input labelPlacement="floating" value="">
+        <div slot="label">Email</div>
+      </ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-input type="password" labelPlacement="floating" value="">
+        <div slot="label">Nueva contraseña</div>
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="password" labelPlacement="floating" value="">
+        <div slot="label">Repita contraseña</div>
+      </ion-input>
+    </ion-item>
+
+    <ion-button expand="full" color="tertiary" (click)="recuperar()">Confirmar</ion-button>
+
+
+
+
   </ion-header>
 </ion-content>
