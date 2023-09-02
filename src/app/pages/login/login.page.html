@@ -5,19 +5,17 @@
 </ion-header>
 
 <ion-content class="body"   [fullscreen]="true">
- 
   <ion-card class="login-card">
     <div class="icono-login">
      <ion-icon name="person-outline"></ion-icon>
     </div>
     <ion-card-header>
-      
       <ion-card-title>Inicio de Sesion</ion-card-title>
     </ion-card-header>
     <div class="container"> 
       <ion-card-content>
-        <ion-input [(ngModel)]="usuario"  label="Usuario: "></ion-input>
-        <ion-input [(ngModel)]="password"  type="password" label="contraseña: "></ion-input>
+        <ion-input [(ngModel)]="usuario" style="color: white !important;"  label="Usuario: "></ion-input>
+        <ion-input [(ngModel)]="password" type="password" style="color: white !important;" label="contraseña: "></ion-input>
         <ion-button (click)="iniciarSesion()" color="tertiary"  shape="round">Ingresar </ion-button>
       </ion-card-content>
 
