@@ -16,12 +16,23 @@
     </ion-card-header>
     <div class="container"> 
       <ion-card-content>
-        <ion-input  label="Usuario: "></ion-input>
-        <ion-input  type="password" label="contraseña: "></ion-input>
-        <ion-label>Recuperar contraseña</ion-label>
-        <ion-label>No tienes una cuenta?</ion-label>
-        <ion-button color="tertiary"  shape="round">Ingresar </ion-button>
+        <ion-input [(ngModel)]="usuario"  label="Usuario: "></ion-input>
+        <ion-input [(ngModel)]="password"  type="password" label="contraseña: "></ion-input>
+        <ion-button (click)="iniciarSesion()" color="tertiary"  shape="round">Ingresar </ion-button>
       </ion-card-content>
+
+      <ion-card-content>
+        <a routerLink="/recuperar">¿Olvidaste tu contraseña?</a>
+      </ion-card-content>
+
+
+      <ion-card-content>
+        <label>No tienes una cuenta?</label>
+        <a routerLink="/resgitro">Crea una</a>
+      </ion-card-content>
+
+
+      
   </div>
 
 </ion-card>
