@@ -13,10 +13,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
   },
   {
-    path: 'lobby',
-    loadChildren: () => import('./pages/lobby/lobby.module').then( m => m.LobbyPageModule)
-  },
-  {
     path: 'pag1',
     loadChildren: () => import('./pages/pag1/pag1.module').then( m => m.Pag1PageModule)
   },
@@ -43,7 +39,8 @@ const routes: Routes = [
   {
     path: 'asistencia',
     loadChildren: () => import('./pages/asistencia/asistencia.module').then( m => m.AsistenciaPageModule)
-  },  {
+  },
+  {
     path: 'menu',
     loadChildren: () => import('./pages/menu/menu.module').then( m => m.MenuPageModule)
   },
